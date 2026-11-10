@@ -1,6 +1,6 @@
-# BDX / Notes — le carnet de conférence
+# BDX / IO / NOTES — le carnet de conférence
 
-Site statique indépendant de BDX I/O, prêt pour GitHub Pages. Aucun serveur applicatif, secret, compte ou dépendance npm. Node.js 20 ou plus récent sert uniquement à construire le site et à la prévisualisation locale.
+Site indépendant de BDX I/O, distribué sous forme d’image Docker sur GitHub Container Registry (GHCR), selon le même workflow que jul-fls/vbmatrix-tool. Aucun service externe ni dépendance npm nécessaire au fonctionnement.
 
 ## Contenu
 
@@ -23,17 +23,33 @@ npm start
 
 Ouvrir ensuite `http://127.0.0.1:4173`.
 
-## Publier sur GitHub Pages
+## Déploiement Docker / GHCR
 
-1. Créer un dépôt GitHub, puis mettre **le contenu de ce dossier à la racine du dépôt**, avec `.github/`, `scripts/`, `public/`, `data/`, `content/` et `package.json`. Ne pas envoyer seulement le ZIP.
-2. Utiliser une branche principale nommée `main`, ou adapter `branches` dans `.github/workflows/pages.yml`.
-3. Dans le dépôt : **Settings → Pages → Build and deployment → Source → GitHub Actions**.
-4. Pousser les fichiers sur `main`. Le workflow construit, vérifie et publie `dist/`.
-5. L’URL apparaît dans la tâche de déploiement et dans Settings → Pages. Elle prend généralement la forme `https://VOTRE-COMPTE.github.io/NOM-DU-DEPOT/`.
+Le workflow .github/workflows/docker-publish.yaml reprend celui de [vbmatrix-tool](https://github.com/jul-fls/vbmatrix-tool/blob/master/.github/workflows/docker-publish.yaml) : checkout v4, connexion GHCR avec GITHUB_TOKEN, build-push-action v5, publication du tag latest à chaque push ou pull request vers main (master dans le dépôt d’origine). Le nom de l’image devient :
 
-Alternative sans build : copier le contenu de `dist/` à la racine d’une branche de publication et sélectionner cette branche dans Pages. Garder `.nojekyll`. Ne pas mélanger cette méthode avec le workflow sans choisir l’une des deux comme source de publication.
+```text
+ghcr.io/jul-fls/bdxio-2026-notes/bdxio-2026-notes-app:latest
+```
 
-Tous les chemins d’assets sont relatifs, ce qui permet de publier sous un sous-dossier GitHub Pages. Les liens des talks utilisent le fragment `#talk=...`, sans routage serveur ni fichier 404 de secours.
+Pousser ce projet sur main pour déclencher la construction. Le Dockerfile construit et vérifie les notes, puis lance un serveur Node 20 Alpine sur le port 3000, accessible depuis le réseau du conteneur.
+
+Sur la machine d’hébergement :
+
+```sh
+docker pull ghcr.io/jul-fls/bdxio-2026-notes/bdxio-2026-notes-app:latest
+docker run -d --restart unless-stopped --name bdxio-2026-notes -p 3000:3000 ghcr.io/jul-fls/bdxio-2026-notes/bdxio-2026-notes-app:latest
+```
+
+Ouvrir http://localhost:3000 (ou l’adresse du serveur). Le workflow publie l’image ; il ne redémarre pas automatiquement un serveur distant, comme celui du dépôt modèle. Pour une image privée, se connecter à GHCR sur le serveur avec docker login ghcr.io.
+
+Construction locale :
+
+```sh
+docker build -t bdxio-2026-notes .
+docker run --rm -p 3000:3000 bdxio-2026-notes
+```
+
+Le serveur accepte HOST et PORT ; dans Docker ils valent 0.0.0.0 et 3000. Les chemins restent relatifs et les éditions sont accessibles sous editions/2026/.
 
 ## Modifier les notes et le programme
 

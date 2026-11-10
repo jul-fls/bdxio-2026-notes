@@ -26,7 +26,7 @@ for(const t of sessions){
   counts[t.day]=(counts[t.day]||0)+1;
 }
 
-for(const name of ['index.html','.nojekyll','assets/app.js','assets/style.css','assets/favicon.svg'])await fs.access(path.join(dist,name));
+for(const name of ['index.html','assets/app.js','assets/style.css','assets/favicon.svg'])await fs.access(path.join(dist,name));
 const app=await fs.readFile(path.join(dist,'assets/app.js'),'utf8');new vm.Script(app);
 const page=await fs.readFile(path.join(dist,'index.html'),'utf8');assert.ok(page.includes('lang="fr"'));assert.ok(page.includes('id="talk-dialog"'));
 console.log('Vérifications OK : édition '+edition.year+', '+sessions.length+' sessions.');
