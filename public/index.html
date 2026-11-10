@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4ee">
+  <meta name="description" content="Un carnet personnel des conférences BDX I/O 2026. Explorez le programme, les speakers et 69 carnets détaillés, les 29 et 30 octobre à Bordeaux.">
+  <title>BDX / IO / NOTES — Le carnet de conférence, 2026</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script defer src="./assets/data.js"></script>
+  <script defer src="./assets/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#programme">Aller au programme</a>
+  <header class="masthead">
+    <a class="wordmark" href="#" aria-label="BDX / IO / Notes, accueil"><span class="brand-icon">b/</span><span>BDX<span class="brand-slash"> / </span>IO<span class="brand-slash"> / </span>NOTES<small>LE CARNET DE CONFÉRENCE</small></span></a>
+    <nav aria-label="Navigation principale"><a href="#programme" class="nav-current">Le programme <span>↘</span></a><button type="button" id="saved-nav">Ma sélection <span id="saved-count">0</span></button><button type="button" id="about-button">À propos <span>↗</span></button></nav>
+    <div class="edition-picker"><label for="edition-select">LES ÉDITIONS</label><select id="edition-select" aria-label="Choisir une édition"></select></div>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><div class="eyebrow"><span class="live-dot"></span> 29 & 30 OCTOBRE 2026 <span class="eyebrow-separator">/</span> LE RETOUR DE CONFÉRENCE</div>
+      <div class="edition-display"><span>LE CARNET DE L’ÉDITION</span><strong id="edition-year">2026</strong></div><h1 id="hero-title">Les talks passent.<br>Les idées <em>restent.</em><svg class="title-star" viewBox="0 0 80 80" aria-hidden="true"><path d="M40 0v80M0 40h80M12 12l56 56M12 68l56-56"/></svg></h1>
+      <p>Deux jours de tech, de rencontres et de prises de recul.<br>Un planning pour explorer. Un carnet pour se souvenir.</p>
+      <a class="hero-link" href="#programme">Ouvrir le carnet <span>↘</span></a></div>
+      <aside class="cover" aria-label="Le carnet en quelques chiffres"><div class="cover-top"><span>LES NOTES<br>QUI RESTENT.</span><span class="cover-volume">VOL.<br><b id="cover-year">2026</b></span></div><div class="cover-lines" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><div class="cover-sticker"><span id="carnet-count">69</span><small>CARNETS<br>À EXPLORER</small><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div><div class="cover-bottom"><span>ENSEIRB–MATMECA<br>TALENCE, BORDEAUX</span><span>DEUX JOURS.<br>PLEIN D’IDÉES.</span></div></aside>
+    </section>
+    <section class="programme" id="programme" aria-labelledby="programme-title">
+      <div class="section-title"><div><p class="eyebrow">01 / EXPLORER</p><h2 id="programme-title">À chacun son programme<span class="title-dot">.</span></h2></div><p class="coverage"><strong id="total-count">86</strong> sessions <span>·</span> <strong id="room-count">7</strong> salles <span>·</span> <strong id="day-count">2</strong> jours</p></div>
+      <div class="programme-controls">
+        <div class="control-line"><div class="day-tabs" role="group" aria-label="Jour"><button class="active" type="button" data-day="jeudi" aria-pressed="true"><span>JEUDI</span><b>29 oct.</b></button><button type="button" data-day="vendredi" aria-pressed="false"><span>VENDREDI</span><b>30 oct.</b></button></div>
+        <div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><label class="sr-only" for="search">Rechercher un talk, un speaker ou un mot dans les notes</label><input id="search" type="search" placeholder="Un talk, un speaker, une idée…" autocomplete="off"><kbd>/</kbd></div>
+        <div class="view-switch" role="group" aria-label="Affichage"><button type="button" class="active" data-view="planning" aria-pressed="true" title="Vue planning"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="2" y="3" width="16" height="14" rx="2"/><path d="M2 7h16M7 7v10M12 7v10"/></svg><span>Planning</span></button><button type="button" data-view="list" aria-pressed="false" title="Vue liste"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4h11M7 10h11M7 16h11M2 4h1M2 10h1M2 16h1"/></svg><span>Liste</span></button></div></div>
+        <div class="filter-line"><div class="select-wrap"><label class="sr-only" for="room-filter">Salle</label><select id="room-filter"><option value="">Toutes les salles</option></select></div><div class="select-wrap category-select"><label class="sr-only" for="category-filter">Thème</label><select id="category-filter"><option value="">Tous les thèmes</option></select></div><button type="button" class="filter-toggle" id="notes-filter" aria-pressed="false"><span>▤</span> Avec un carnet</button><button type="button" class="filter-toggle" id="favorites-filter" aria-pressed="false"><span>☆</span> Ma sélection</button><button class="reset" type="button" id="reset" hidden>Tout effacer ×</button><span id="result-count" class="result-count" role="status" aria-live="polite"></span></div>
+      </div>
+      <div class="legend"><span><i class="legend-dot complete"></i>Carnet disponible</span><span><i class="legend-dot partial"></i>Notes partielles</span><span><i class="legend-dot absent"></i>Sans transcription</span><small>Choisissez un talk pour ouvrir ses notes <span>↗</span></small></div>
+      <div id="schedule" class="schedule" aria-label="Programme des conférences"></div>
+      <div class="empty" id="empty" hidden><span>⌕</span><h3>Pas de talk dans cette marge.</h3><p>Essayez un autre mot, un autre jour ou allégez les filtres.</p><button type="button" id="empty-reset">Réinitialiser les filtres ↗</button></div>
+      <div class="programme-bottom"><span>Fin de journée. Début des discussions.</span><a href="https://bdxio.fr/talks/" target="_blank" rel="noopener noreferrer">Le programme officiel BDX I/O ↗</a></div>
+    </section>
+    <section class="colophon"><span class="colophon-mark" aria-hidden="true">✳</span><div><h2>Un carnet, pas un compte rendu officiel.</h2><p>Des notes personnelles développées à partir des transcriptions, pour retrouver une démonstration, un argument ou une idée à creuser. Les passages manquants restent signalés.</p></div><span class="colophon-number"><span id="colophon-year">2026</span><br><small>BDX / IO / NOTES</small></span></section>
+  </main>
+  <footer><a class="footer-brand" href="#">BDX / IO / NOTES</a><p>Un carnet indépendant · BDX I/O 2026 · Données du <a href="https://bdxio.fr/talks/" target="_blank" rel="noopener noreferrer">programme officiel ↗</a></p><a href="#programme">Retour au programme ↑</a></footer>
+  <dialog id="talk-dialog" aria-labelledby="modal-title"><div id="talk-shell"></div></dialog>
+  <dialog id="about-dialog" aria-labelledby="about-title"><div class="about-content"><button type="button" class="close about-close" aria-label="Fermer">×</button><p class="eyebrow">DANS LES MARGES</p><h2 id="about-title">L’essentiel,<br>et tout ce qu’il y a autour.</h2><p>Ce site rassemble un carnet personnel des deux journées de BDX I/O 2026. Il n’est ni édité ni validé par l’association BDX I/O.</p><p><strong>69 carnets développés, 1 extrait partiel.</strong> Les autres sessions gardent leur place dans le programme, même sans transcription. Les notes sont reformulées et ne sont pas des citations.</p><p>Horaires, intervenants, portraits et liens publics proviennent du <a href="https://bdxio.fr/talks/" target="_blank" rel="noopener noreferrer">site officiel BDX I/O</a>, consulté le 10 novembre 2026. Un profil absent n’est pas deviné.</p><p>Votre sélection et les talks marqués comme lus restent dans ce navigateur. Aucun compte, aucun suivi analytique.</p><button type="button" class="primary about-close">Revenir au carnet ↗</button></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">Activez JavaScript pour parcourir le planning. Les fichiers Markdown restent disponibles dans le dossier notes du site.</p></noscript>
+</body>
+</html>

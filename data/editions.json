@@ -1,0 +1,30 @@
+{
+  "defaultYear": 2026,
+  "editions": [
+    {
+      "year": 2026,
+      "catalog": "data/catalog.json",
+      "content": "content",
+      "datesLabel": "29 & 30 OCTOBRE",
+      "location": "ENSEIRB–MATMECA · TALENCE, BORDEAUX",
+      "days": [
+        {
+          "id": "jeudi",
+          "label": "Jeudi",
+          "short": "29 oct.",
+          "date": "29 octobre"
+        },
+        {
+          "id": "vendredi",
+          "label": "Vendredi",
+          "short": "30 oct.",
+          "date": "30 octobre"
+        }
+      ]
+    },
+    {
+      "year": 2027,
+      "planned": true
+    }
+  ]
+}
