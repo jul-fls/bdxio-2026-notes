@@ -9,10 +9,13 @@
   const $$ = (q, root = document) => [...root.querySelectorAll(q)];
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const normalize = value => String(value).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-  const preferredRooms = ['grand-amphi','amphi-a','amphi-b','amphi-d','amphi-e','salle-1','salle-2'];
-  const roomName = {'grand-amphi':'Grand Amphi','amphi-a':'Amphi A','amphi-b':'Amphi B','amphi-d':'Amphi D','amphi-e':'Amphi E','salle-1':'Salle 1','salle-2':'Salle 2'};
-  const roomOrder = [...new Set(data.sessions.map(t=>t.room))].sort((a,b)=>(preferredRooms.indexOf(a)+1||999)-(preferredRooms.indexOf(b)+1||999));
-  for(const t of data.sessions)roomName[t.room]=t.roomLabel;
+  const roomName = Object.fromEntries(data.sessions.map(t => [t.room, t.roomLabel]));
+  const roomCollator = new Intl.Collator('fr', { numeric: true });
+  const roomOrder = Object.keys(roomName).sort((a, b) => {
+    if (a === 'non-renseignee') return 1;
+    if (b === 'non-renseignee') return -1;
+    return roomCollator.compare(roomName[a], roomName[b]);
+  });
   const formatTime = time => time ? time.replace(':',' h ') : 'Horaire non renseigné';
   const colors = {
     'Architecture & Méthodologies':['#7f9170','#edf0e4'],
