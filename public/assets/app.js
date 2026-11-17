@@ -90,14 +90,18 @@
 
   document.title='BDX / IO / NOTES — Édition '+edition.year;
   for(const id of ['edition-year','cover-year','colophon-year'])$('#'+id).textContent=edition.year;
-  $('.hero .eyebrow').textContent=edition.datesLabel+' '+edition.year+' / LE RETOUR DE CONFÉRENCE';
-  $('.cover-bottom span').textContent=edition.location;
-  $('.programme-bottom a').href=data.source;
-  if(edition.days.length===1){$('#room-count').parentElement.textContent=data.sessions.length+' talks · '+edition.days[0].date;$('#day-count').nextSibling.textContent=' jour';$('.hero-copy>p').textContent='Une journée de conférences, à retrouver dans le programme et les carnets.';$('.cover-bottom span:last-child').textContent='UNE JOURNÉE DE CONFÉRENCES';}
-  $('#carnet-count').textContent=data.sessions.filter(t=>t.status==='complete').length;
-  $('#total-count').textContent=data.sessions.length;
-  $('#room-count').textContent=new Set(data.sessions.map(t=>t.room).filter(room=>room!=='non-renseignee')).size;
-  $('#day-count').textContent=edition.days.length;
+  const dayCount = edition.days.length;
+  const roomCount = new Set(data.sessions.map(t => t.room).filter(room => room !== 'non-renseignee')).size;
+  const sessionCount = data.sessions.length;
+  $('#edition-dates').textContent = edition.datesLabel + ' ' + edition.year;
+  $('#edition-location').textContent = edition.location;
+  $('#edition-length').textContent = dayCount === 1 ? 'UNE JOURNÉE DE CONFÉRENCES' : dayCount + ' JOURS DE CONFÉRENCES';
+  $('.programme-bottom a').href = data.source;
+  $('#about-dialog a').href = data.source;
+  $('#carnet-count').textContent = data.sessions.filter(t => t.status === 'complete').length;
+  $('#total-count').textContent = sessionCount + (sessionCount === 1 ? ' session' : ' sessions');
+  $('#room-count').textContent = roomCount + (roomCount === 1 ? ' salle renseignée' : ' salles renseignées');
+  $('#day-count').textContent = dayCount + (dayCount === 1 ? ' jour' : ' jours');
   $('.day-tabs').innerHTML=edition.days.map((d,i)=>'<button type="button" data-day="'+escape(d.id)+'" aria-pressed="'+(i===0)+'"><span>'+escape(d.label.toUpperCase())+'</span><b>'+escape(d.short)+'</b></button>').join('');
   const editionSelect=$('#edition-select');
   for(const item of data.editions){const o=document.createElement('option');o.value=item.href+(location.protocol==='file:'?'index.html':'');o.textContent=item.year+(item.planned?' · À venir':'');o.disabled=item.planned;o.selected=item.year===edition.year;editionSelect.append(o);}
@@ -117,8 +121,19 @@
   $('#reset').addEventListener('click',reset);$('#empty-reset').addEventListener('click',reset);
   const about=$('#about-dialog');$('#about-button').addEventListener('click',()=>about.showModal());$$('.about-close').forEach(b=>b.addEventListener('click',()=>about.close()));about.addEventListener('click',e=>{if(e.target===about)about.close();});
   document.addEventListener('keydown',e=>{if(e.key==='/'&&!dialog.open&&!about.open&&!/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)){e.preventDefault();$('#search').focus();}});
-  window.addEventListener('hashchange',()=>{if(location.hash.startsWith('#talk=')){const id=decodeURIComponent(location.hash.slice(6));if(activeTalk?.id!==id)openTalk(id,true);}else if(dialog.open)dialog.close();});
+  function syncTalkFromHash() {
+    if (location.hash.startsWith('#talk=')) {
+      let id;
+      try { id = decodeURIComponent(location.hash.slice(6)); }
+      catch { return; }
+      if (activeTalk?.id !== id) openTalk(id, true);
+    } else if (dialog.open) {
+      dialog.close();
+    }
+  }
+  window.addEventListener('hashchange', syncTalkFromHash);
   for(const room of roomOrder){const option=document.createElement('option');option.value=room;option.textContent=roomName[room];$('#room-filter').append(option);}
   for(const category of [...new Set(data.sessions.map(t=>t.category))].sort()){const option=document.createElement('option');option.value=category;option.textContent=shortCategory(category);$('#category-filter').append(option);}
-  render();if(location.hash.startsWith('#talk='))openTalk(decodeURIComponent(location.hash.slice(6)),true);
+  render();
+  syncTalkFromHash();
 })();
