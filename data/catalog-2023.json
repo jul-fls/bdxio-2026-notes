@@ -12,8 +12,8 @@
       "room": "salle-2",
       "roomLabel": "Salle 2 (E1+E2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/C5603AQGCl3KXiZdH0w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1586438461233?e=1796256000&v=beta&t=YI_-EGXAwjOLbhjFntJgBuLlgV6cxkmqtR9xEZ1-wpU",
@@ -27,7 +27,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/salle-2/632.md"
+      "noteFile": "vendredi/salle-2/632.md",
+      "durationSource": "https://bdxio.fr/2023/talks/632"
     },
     {
       "id": "vendredi-581",
@@ -40,8 +41,8 @@
       "room": "amphi-a",
       "roomLabel": "Amphi A",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4D03AQFhGFVhV000Hg/profile-displayphoto-shrink_400_400/B4DZXn8FGoHAAk-/0/1743353042323?e=1796256000&v=beta&t=tbFF5nNsANSGHtrH5oKRn1Tu4wdZ8KmSIp_YmlGoFOs",
@@ -63,7 +64,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/amphi-a/581.md"
+      "noteFile": "vendredi/amphi-a/581.md",
+      "durationSource": "https://bdxio.fr/2023/talks/581"
     },
     {
       "id": "vendredi-620",
@@ -76,8 +78,8 @@
       "room": "amphi-a",
       "roomLabel": "Amphi A",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D5603AQGLa17TGP9AaA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1689866397594?e=1796256000&v=beta&t=6ma2bFWpj5CkueUphFF2UmQGyHTqytpAN7uF8VNAqEo",
@@ -99,7 +101,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/amphi-a/620.md"
+      "noteFile": "vendredi/amphi-a/620.md",
+      "durationSource": "https://bdxio.fr/2023/talks/620"
     },
     {
       "id": "vendredi-595",
@@ -112,8 +115,8 @@
       "room": "amphi-c",
       "roomLabel": "Amphi C",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQFVXIcip2hUOg/profile-displayphoto-scale_400_400/B4EZ5i_q0AJ0Ak-/0/1779777319123?e=1796256000&v=beta&t=oEl5cC-uBpGCu3q0n4PjNj1EEQpojTMJZC0yomJ2yJ0",
@@ -137,7 +140,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/amphi-c/595.md"
+      "noteFile": "vendredi/amphi-c/595.md",
+      "durationSource": "https://bdxio.fr/2023/talks/595"
     },
     {
       "id": "vendredi-619",
@@ -147,11 +151,11 @@
       "level": "Intermédiaire",
       "source": "https://bdxio.fr/2023/talks/619",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "amphi-b",
+      "roomLabel": "Amphi B",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQGpe_BhxX-vLQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726559762539?e=1796256000&v=beta&t=Q8AYNFrNXo4z-xWLh-Wxs6GkIHEyn6U3CxCz_ZEs4QI",
@@ -168,8 +172,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/amphi-b/619.md",
+      "durationSource": "https://bdxio.fr/2023/talks/619"
     },
     {
       "id": "vendredi-584",
@@ -179,11 +184,11 @@
       "level": "Débutant",
       "source": "https://bdxio.fr/2023/talks/584",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "salle-3",
+      "roomLabel": "Salle 3 (H1+H2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQHhoSwRFnktoA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715802001788?e=1796256000&v=beta&t=vWMotErx4nKuvmd0fARqjuHH2WrMdpps4j691tlcs0Q",
@@ -214,8 +219,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/salle-3/584.md",
+      "durationSource": "https://bdxio.fr/2023/talks/584"
     },
     {
       "id": "vendredi-611",
@@ -225,11 +231,11 @@
       "level": "Débutant",
       "source": "https://bdxio.fr/2023/talks/611",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "salle-1",
+      "roomLabel": "Salle 1 (F1+F2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQEcABMGwhzmzA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1705762358044?e=1796256000&v=beta&t=ZD7c7_W5_eor9JcLKziBpFp12qbSAHNhLOYNgXDsksU",
@@ -250,8 +256,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/salle-1/611.md",
+      "durationSource": "https://bdxio.fr/2023/talks/611"
     },
     {
       "id": "vendredi-622",
@@ -264,8 +271,8 @@
       "room": "amphi-a",
       "roomLabel": "Amphi A",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQGc2LYwURR4UQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688397941117?e=1796256000&v=beta&t=n-gf5qwhSefGSKZicLtC5br-USPG794GK1R2GJDq0wk",
@@ -287,7 +294,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/amphi-a/622.md"
+      "noteFile": "vendredi/amphi-a/622.md",
+      "durationSource": "https://bdxio.fr/2023/talks/622"
     },
     {
       "id": "vendredi-605",
@@ -300,8 +308,8 @@
       "room": "amphi-b",
       "roomLabel": "Amphi B",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQETE7Wqua2stQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1672308393025?e=1796256000&v=beta&t=aXs8VFuoZwtqEJpyd7FhhTM7SIiKHh9MwvEClNJw5Sw",
@@ -323,7 +331,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/amphi-b/605.md"
+      "noteFile": "vendredi/amphi-b/605.md",
+      "durationSource": "https://bdxio.fr/2023/talks/605"
     },
     {
       "id": "vendredi-623",
@@ -333,11 +342,11 @@
       "level": "Intermédiaire",
       "source": "https://bdxio.fr/2023/talks/623",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "amphi-b",
+      "roomLabel": "Amphi B",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/C5603AQEB8bs8VXz4ug/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516276520145?e=1796256000&v=beta&t=bV8A4-3p_YJdkm4q51vwviL8_-L1u5v4rIJGwmdFR4E",
@@ -354,8 +363,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/amphi-b/623.md",
+      "durationSource": "https://bdxio.fr/2023/talks/623"
     },
     {
       "id": "vendredi-631",
@@ -368,8 +378,8 @@
       "room": "salle-3",
       "roomLabel": "Salle 3 (H1+H2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://bdxio.fr/images/speakers/aida-el-mernissi.jpg",
@@ -393,7 +403,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/salle-3/631.md"
+      "noteFile": "vendredi/salle-3/631.md",
+      "durationSource": "https://bdxio.fr/2023/talks/631"
     },
     {
       "id": "vendredi-588",
@@ -403,11 +414,11 @@
       "level": "Débutant",
       "source": "https://bdxio.fr/2023/talks/588",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "amphi-c",
+      "roomLabel": "Amphi C",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQHrtc-IMAT3vQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1694282281301?e=1796256000&v=beta&t=8ADW7XQGMzDnb01DmWmwHpJacqvxQzzCz_hufM215lA",
@@ -420,8 +431,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/amphi-c/588.md",
+      "durationSource": "https://bdxio.fr/2023/talks/588"
     },
     {
       "id": "vendredi-607",
@@ -434,8 +446,8 @@
       "room": "salle-1",
       "roomLabel": "Salle 1 (F1+F2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4D03AQFzI-kM3pAL_A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730040790844?e=1796256000&v=beta&t=o22WipFaKaUErIxyvDaK99D9A6oB6pNWd7HwDMWf-LI",
@@ -453,7 +465,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/salle-1/607.md"
+      "noteFile": "vendredi/salle-1/607.md",
+      "durationSource": "https://bdxio.fr/2023/talks/607"
     },
     {
       "id": "vendredi-606",
@@ -466,8 +479,8 @@
       "room": "salle-3",
       "roomLabel": "Salle 3 (H1+H2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/C4E03AQHcyke4dhhiYg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1628590287682?e=1796256000&v=beta&t=kEx5EP901hL_f0rkcJXeDTCXaqkWqRNIc6a68kBQMgs",
@@ -489,7 +502,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/salle-3/606.md"
+      "noteFile": "vendredi/salle-3/606.md",
+      "durationSource": "https://bdxio.fr/2023/talks/606"
     },
     {
       "id": "vendredi-597",
@@ -502,8 +516,8 @@
       "room": "amphi-a",
       "roomLabel": "Amphi A",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "name": "Thomas Thibault",
@@ -521,7 +535,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/amphi-a/597.md"
+      "noteFile": "vendredi/amphi-a/597.md",
+      "durationSource": "https://bdxio.fr/2023/talks/597"
     },
     {
       "id": "vendredi-590",
@@ -531,11 +546,11 @@
       "level": "Débutant",
       "source": "https://bdxio.fr/2023/talks/590",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "salle-1",
+      "roomLabel": "Salle 1 (F1+F2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D5603AQForBJKd_3SjA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1667405093834?e=1796256000&v=beta&t=kUzcRU550-geSJs4aFRnYyzotPYANj6r7on9W8ma_TM",
@@ -552,8 +567,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/salle-1/590.md",
+      "durationSource": "https://bdxio.fr/2023/talks/590"
     },
     {
       "id": "vendredi-596",
@@ -563,11 +579,11 @@
       "level": "Intermédiaire",
       "source": "https://bdxio.fr/2023/talks/596",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "salle-1",
+      "roomLabel": "Salle 1 (F1+F2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQHxdHTLZsMPNw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1682024296061?e=1796256000&v=beta&t=cu_AP-Rj38CblVlIC7dCPcPyR-mG5z0erkDN542EvlQ",
@@ -584,8 +600,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/salle-1/596.md",
+      "durationSource": "https://bdxio.fr/2023/talks/596"
     },
     {
       "id": "vendredi-609",
@@ -595,11 +612,11 @@
       "level": "Débutant",
       "source": "https://bdxio.fr/2023/talks/609",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "amphi-b",
+      "roomLabel": "Amphi B",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQHv_TmuiAcC-g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1667378519073?e=1796256000&v=beta&t=sBRMOa1C5Po2-Y3P8hoXo5bhW5efgEe0g9s7AxQ0lWg",
@@ -622,8 +639,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/amphi-b/609.md",
+      "durationSource": "https://bdxio.fr/2023/talks/609"
     },
     {
       "id": "vendredi-594",
@@ -636,8 +654,8 @@
       "room": "amphi-a",
       "roomLabel": "Amphi A",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4D03AQH9N0zrKd81rg/profile-displayphoto-scale_400_400/B4DZ2wmYj5JIAg-/0/1776784346203?e=1796256000&v=beta&t=7ZCxCVDwTfo9L5O4AZ9WXkV4ZalNNc8lirGrqjTlcNI",
@@ -655,7 +673,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/amphi-a/594.md"
+      "noteFile": "vendredi/amphi-a/594.md",
+      "durationSource": "https://bdxio.fr/2023/talks/594"
     },
     {
       "id": "vendredi-635",
@@ -668,8 +687,8 @@
       "room": "amphi-c",
       "roomLabel": "Amphi C",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/C5603AQHjfwWnQ2BM7A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1594282550210?e=1796256000&v=beta&t=XXH_q72hMfjWRFSuXEC3QuvWVr6_Vxci-Rd1fml9GBQ",
@@ -687,7 +706,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/amphi-c/635.md"
+      "noteFile": "vendredi/amphi-c/635.md",
+      "durationSource": "https://bdxio.fr/2023/talks/635"
     },
     {
       "id": "vendredi-600",
@@ -697,11 +717,11 @@
       "level": "Débutant",
       "source": "https://bdxio.fr/2023/talks/600",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "amphi-b",
+      "roomLabel": "Amphi B",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQFPK3v4Jd1YYQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1705025011618?e=1796256000&v=beta&t=aBLDMk85FigQmB4sqZ2A7OgbmYiGHk3a5dSD16GzVPM",
@@ -724,8 +744,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/amphi-b/600.md",
+      "durationSource": "https://bdxio.fr/2023/talks/600"
     },
     {
       "id": "vendredi-604",
@@ -735,11 +756,11 @@
       "level": "Intermédiaire",
       "source": "https://bdxio.fr/2023/talks/604",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "salle-3",
+      "roomLabel": "Salle 3 (H1+H2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQH-elsyAqRZQg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715691213719?e=1796256000&v=beta&t=rNHmRXJJxL4-fmAS-TJNpwImaB9NXYeARLuFxPLe-2A",
@@ -756,8 +777,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/salle-3/604.md",
+      "durationSource": "https://bdxio.fr/2023/talks/604"
     },
     {
       "id": "vendredi-599",
@@ -770,8 +792,8 @@
       "room": "salle-2",
       "roomLabel": "Salle 2 (E1+E2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQEZXsyiK71Q3A/profile-displayphoto-scale_400_400/B4EZuTk87HIwAk-/0/1767707499465?e=1796256000&v=beta&t=PPMMF5dyrj6U_aPBJ36LHDlCRZ6woEy9J1WhXFJ6u3g",
@@ -799,7 +821,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/salle-2/599.md"
+      "noteFile": "vendredi/salle-2/599.md",
+      "durationSource": "https://bdxio.fr/2023/talks/599"
     },
     {
       "id": "vendredi-624",
@@ -812,8 +835,8 @@
       "room": "salle-1",
       "roomLabel": "Salle 1 (F1+F2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQFbvp6ZZ1i7tg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718201577725?e=1796256000&v=beta&t=dAPJ4WHXA8Q01ZBvc_h2toMAgaL6Wg-iALguYf64TRE",
@@ -834,8 +857,9 @@
           ]
         }
       ],
-      "status": "partial",
-      "noteFile": "vendredi/salle-1/624.md"
+      "status": "complete",
+      "noteFile": "vendredi/salle-1/624.md",
+      "durationSource": "https://bdxio.fr/2023/talks/624"
     },
     {
       "id": "vendredi-629",
@@ -848,8 +872,8 @@
       "room": "salle-2",
       "roomLabel": "Salle 2 (E1+E2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/C5603AQH8N-Q6n6_jfw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1548156532132?e=1796256000&v=beta&t=FnkiovPlkzSfZ9AKVs3m_6Vn3brLPRgnaTJLyZcGX_M",
@@ -866,8 +890,9 @@
           ]
         }
       ],
-      "status": "partial",
-      "noteFile": "vendredi/salle-2/629.md"
+      "status": "complete",
+      "noteFile": "vendredi/salle-2/629.md",
+      "durationSource": "https://bdxio.fr/2023/talks/629"
     },
     {
       "id": "vendredi-593",
@@ -877,11 +902,11 @@
       "level": "Débutant",
       "source": "https://bdxio.fr/2023/talks/593",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "amphi-c",
+      "roomLabel": "Amphi C",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/C4E03AQH6sNRZkLbXKg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517655188188?e=1796256000&v=beta&t=dZmMQJQEXLsvsCc2V8dluxxE4gGrq_dZ5xgbLP__Afo",
@@ -898,8 +923,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/amphi-c/593.md",
+      "durationSource": "https://bdxio.fr/2023/talks/593"
     },
     {
       "id": "vendredi-613",
@@ -909,11 +935,11 @@
       "level": "Intermédiaire",
       "source": "https://bdxio.fr/2023/talks/613",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "salle-2",
+      "roomLabel": "Salle 2 (E1+E2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/C4D03AQGDasw2hUT41g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1633109957669?e=1796256000&v=beta&t=0yJtHPaxG2gxq4zQXUdo3qeHXFBThcZRxr7vMSB9eC0",
@@ -930,8 +956,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/salle-2/613.md",
+      "durationSource": "https://bdxio.fr/2023/talks/613"
     },
     {
       "id": "vendredi-589",
@@ -944,8 +971,8 @@
       "room": "salle-3",
       "roomLabel": "Salle 3 (H1+H2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQE4Y1cRk34kBg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1699640530443?e=1796256000&v=beta&t=higpGs4K3iawDEeJcDJM0AJQde1bn-2a5HtmE4uVf50",
@@ -959,7 +986,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/salle-3/589.md"
+      "noteFile": "vendredi/salle-3/589.md",
+      "durationSource": "https://bdxio.fr/2023/talks/589"
     },
     {
       "id": "vendredi-610",
@@ -969,11 +997,11 @@
       "level": "Intermédiaire",
       "source": "https://bdxio.fr/2023/talks/610",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "amphi-c",
+      "roomLabel": "Amphi C",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4D03AQHkczwkBYAWmQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719470837364?e=1796256000&v=beta&t=SCtfOAkT_bDIDv7F4jVjXadReYWqmUmyLXzjWe1QRNA",
@@ -996,8 +1024,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/amphi-c/610.md",
+      "durationSource": "https://bdxio.fr/2023/talks/610"
     },
     {
       "id": "vendredi-603",
@@ -1007,11 +1036,11 @@
       "level": "Débutant",
       "source": "https://bdxio.fr/2023/talks/603",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "salle-2",
+      "roomLabel": "Salle 2 (E1+E2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://avatars.githubusercontent.com/u/29702924?v=4",
@@ -1054,8 +1083,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/salle-2/603.md",
+      "durationSource": "https://bdxio.fr/2023/talks/603"
     },
     {
       "id": "vendredi-591",
@@ -1068,8 +1098,8 @@
       "room": "amphi-a",
       "roomLabel": "Amphi A",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQGgx1aYQ5SUCQ/profile-displayphoto-scale_400_400/B4EZv_H6CKHsAg-/0/1769511822638?e=1796256000&v=beta&t=m5fj6wDbnqcPAebZH9mN9--7ohPnNsXg4MM7zHUeBt4",
@@ -1093,7 +1123,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/amphi-a/591.md"
+      "noteFile": "vendredi/amphi-a/591.md",
+      "durationSource": "https://bdxio.fr/2023/talks/591"
     },
     {
       "id": "vendredi-615",
@@ -1103,11 +1134,11 @@
       "level": "Débutant",
       "source": "https://bdxio.fr/2023/talks/615",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "amphi-c",
+      "roomLabel": "Amphi C",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQHGW86U21x3RQ/profile-displayphoto-scale_400_400/B4EZkpPVQaKUAk-/0/1757333509771?e=1796256000&v=beta&t=4jWak_zv8VIej-YCxDEuzStVIO4ePYa8yqbnsJTNctw",
@@ -1120,8 +1151,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/amphi-c/615.md",
+      "durationSource": "https://bdxio.fr/2023/talks/615"
     },
     {
       "id": "vendredi-628",
@@ -1134,8 +1166,8 @@
       "room": "amphi-a",
       "roomLabel": "Amphi A",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/C4E03AQGHLc52OV_VgA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1659537723445?e=1796256000&v=beta&t=-LwgVfxxgCRhhkOyFnA0EBoaQWiSWWzTjQdrrj1qKe8",
@@ -1159,7 +1191,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/amphi-a/628.md"
+      "noteFile": "vendredi/amphi-a/628.md",
+      "durationSource": "https://bdxio.fr/2023/talks/628"
     },
     {
       "id": "vendredi-625",
@@ -1172,8 +1205,8 @@
       "room": "non-renseignee",
       "roomLabel": "Salle non renseignée",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Hands on lab - 100min",
+      "duration": 100,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/C4E03AQGgDi64xiq3-A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516887198266?e=1796256000&v=beta&t=0S2XURZ9m2eBvsI56fVynQGl188r7qDAfZresw-At2A",
@@ -1223,7 +1256,8 @@
         }
       ],
       "status": "absent",
-      "noteFile": null
+      "noteFile": null,
+      "durationSource": "https://bdxio.fr/2023/talks/625"
     },
     {
       "id": "vendredi-621",
@@ -1236,8 +1270,8 @@
       "room": "non-renseignee",
       "roomLabel": "Salle non renseignée",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Hands on lab - 100min",
+      "duration": 100,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/C4E03AQFswaKbvMI7-Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1655768569705?e=1796256000&v=beta&t=ZdkzADahXu5PkFhkoT-hX50CY2aK8mfnWQ6MwdCyqm8",
@@ -1255,7 +1289,8 @@
         }
       ],
       "status": "absent",
-      "noteFile": null
+      "noteFile": null,
+      "durationSource": "https://bdxio.fr/2023/talks/621"
     },
     {
       "id": "vendredi-602",
@@ -1268,8 +1303,8 @@
       "room": "salle-3",
       "roomLabel": "Salle 3 (H1+H2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQE5iWdUJfOhXw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1675155557448?e=1796256000&v=beta&t=7FYHkV4ZaqoYLIF5JQ8c8lt6bVRM2Mewvb9iIfmAYVM",
@@ -1291,7 +1326,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/salle-3/602.md"
+      "noteFile": "vendredi/salle-3/602.md",
+      "durationSource": "https://bdxio.fr/2023/talks/602"
     },
     {
       "id": "vendredi-617",
@@ -1304,8 +1340,8 @@
       "room": "non-renseignee",
       "roomLabel": "Salle non renseignée",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Hands on lab - 100min",
+      "duration": 100,
       "speakers": [
         {
           "photo": "https://avatars0.githubusercontent.com/u/8417814?v=4",
@@ -1333,7 +1369,8 @@
         }
       ],
       "status": "absent",
-      "noteFile": null
+      "noteFile": null,
+      "durationSource": "https://bdxio.fr/2023/talks/617"
     },
     {
       "id": "vendredi-601",
@@ -1343,11 +1380,11 @@
       "level": "Débutant",
       "source": "https://bdxio.fr/2023/talks/601",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "salle-3",
+      "roomLabel": "Salle 3 (H1+H2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQEjb4uvmmODIQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1699864751956?e=1796256000&v=beta&t=ODu1DPYvmKjc9KzCB62vBOLhQFQvt-nZn0F5KONlnig",
@@ -1364,8 +1401,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/salle-3/601.md",
+      "durationSource": "https://bdxio.fr/2023/talks/601"
     },
     {
       "id": "vendredi-630",
@@ -1378,8 +1416,8 @@
       "room": "salle-3",
       "roomLabel": "Salle 3 (H1+H2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQG76tcWy7LEEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707999960037?e=1796256000&v=beta&t=Z-58ehXVDS6bQvYd0q1eOHgGNIaogFVao_AdwdlemuU",
@@ -1397,7 +1435,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/salle-3/630.md"
+      "noteFile": "vendredi/salle-3/630.md",
+      "durationSource": "https://bdxio.fr/2023/talks/630"
     },
     {
       "id": "vendredi-627",
@@ -1410,8 +1449,8 @@
       "room": "amphi-b",
       "roomLabel": "Amphi B",
       "time": "10:25",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://fr.gravatar.com/userimage/123188453/975870a140996b955ead02165d002e51.png?size=500",
@@ -1429,7 +1468,8 @@
         }
       ],
       "status": "partial",
-      "noteFile": "vendredi/amphi-b/627.md"
+      "noteFile": "vendredi/amphi-b/627.md",
+      "durationSource": "https://bdxio.fr/2023/talks/627"
     },
     {
       "id": "vendredi-582",
@@ -1442,7 +1482,7 @@
       "room": "amphi-b",
       "roomLabel": "Amphi B",
       "time": "",
-      "format": "Quickie",
+      "format": "Quickie - 15min",
       "duration": 15,
       "speakers": [
         {
@@ -1478,8 +1518,9 @@
           ]
         }
       ],
-      "status": "partial",
-      "noteFile": "vendredi/amphi-b/582.md"
+      "status": "complete",
+      "noteFile": "vendredi/amphi-b/582.md",
+      "durationSource": "https://bdxio.fr/2023/talks/582"
     },
     {
       "id": "vendredi-592",
@@ -1492,8 +1533,8 @@
       "room": "salle-1",
       "roomLabel": "Salle 1 (F1+F2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQEKDqnrSxExAg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723574275534?e=1796256000&v=beta&t=5KoiXzh0pdJKWs081C-x-KBk00448ypnSyegw6istzU",
@@ -1511,7 +1552,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/salle-1/592.md"
+      "noteFile": "vendredi/salle-1/592.md",
+      "durationSource": "https://bdxio.fr/2023/talks/592"
     },
     {
       "id": "vendredi-580",
@@ -1524,8 +1566,8 @@
       "room": "amphi-c",
       "roomLabel": "Amphi C",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQG69lhdU2Rgcg/profile-displayphoto-scale_400_400/B4EZ9C84MDJkAg-/0/1783534683152?e=1796256000&v=beta&t=F6AKsp7UeX9jN9YI483eYa4H9aY7O-7nX9xr-FoCAKo",
@@ -1539,7 +1581,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/amphi-c/580.md"
+      "noteFile": "vendredi/amphi-c/580.md",
+      "durationSource": "https://bdxio.fr/2023/talks/580"
     },
     {
       "id": "vendredi-626",
@@ -1552,8 +1595,8 @@
       "room": "salle-1",
       "roomLabel": "Salle 1 (F1+F2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQFGZv-JXplPaw/profile-displayphoto-scale_400_400/B4EZ7P8nGJJYAk-/0/1781605236186?e=1796256000&v=beta&t=SSPdC3VKWYAh8bv5AdRYv9IH5vQUG31k82X5xnmiyDQ",
@@ -1567,7 +1610,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/salle-1/626.md"
+      "noteFile": "vendredi/salle-1/626.md",
+      "durationSource": "https://bdxio.fr/2023/talks/626"
     },
     {
       "id": "vendredi-618",
@@ -1580,8 +1624,8 @@
       "room": "salle-2",
       "roomLabel": "Salle 2 (E1+E2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/C4D03AQHCBplb_XKr3w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1662043353255?e=1796256000&v=beta&t=Ev_f2j1qorqd9Gq7BOISbx4Yz2yl7vUTLGiIkIvOnxw",
@@ -1595,7 +1639,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/salle-2/618.md"
+      "noteFile": "vendredi/salle-2/618.md",
+      "durationSource": "https://bdxio.fr/2023/talks/618"
     },
     {
       "id": "vendredi-585",
@@ -1605,11 +1650,11 @@
       "level": "Débutant",
       "source": "https://bdxio.fr/2023/talks/585",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "salle-1",
+      "roomLabel": "Salle 1 (F1+F2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/D4E03AQENb5QAoJ7uJA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1724656551842?e=1796256000&v=beta&t=SEsX9jf3kgzW5Dnhl8K5EjCJqVa_goZgOXQmnW2r-8M",
@@ -1626,8 +1671,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/salle-1/585.md",
+      "durationSource": "https://bdxio.fr/2023/talks/585"
     },
     {
       "id": "vendredi-608",
@@ -1640,8 +1686,8 @@
       "room": "salle-2",
       "roomLabel": "Salle 2 (E1+E2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/C4E03AQEtaZ3oSZVXVQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1657383146531?e=1796256000&v=beta&t=xeDae4vZeel2c4e2TV1e3bo3ViC47YW8IsTlpZ8yDP8",
@@ -1663,7 +1709,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/salle-2/608.md"
+      "noteFile": "vendredi/salle-2/608.md",
+      "durationSource": "https://bdxio.fr/2023/talks/608"
     },
     {
       "id": "vendredi-598",
@@ -1676,8 +1723,8 @@
       "room": "amphi-a",
       "roomLabel": "Amphi A",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/C4D03AQHfr3MgSfy5sQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1644571659312?e=1796256000&v=beta&t=ytfndrvn0M-WdlFxjxDxubI-rVAlnaE0gMh-0vUJyZA",
@@ -1699,7 +1746,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/amphi-a/598.md"
+      "noteFile": "vendredi/amphi-a/598.md",
+      "durationSource": "https://bdxio.fr/2023/talks/598"
     },
     {
       "id": "vendredi-587",
@@ -1709,11 +1757,11 @@
       "level": "Débutant",
       "source": "https://bdxio.fr/2023/talks/587",
       "day": "vendredi",
-      "room": "non-renseignee",
-      "roomLabel": "Salle non renseignée",
+      "room": "amphi-b",
+      "roomLabel": "Amphi B",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/C5603AQGH78ij-1nXAw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1581845009527?e=1796256000&v=beta&t=cGUuxbXQYTPZiTltTgONV0sOGj5cjtz93snWo0lNbUw",
@@ -1734,8 +1782,9 @@
           ]
         }
       ],
-      "status": "absent",
-      "noteFile": null
+      "status": "complete",
+      "noteFile": "vendredi/amphi-b/587.md",
+      "durationSource": "https://bdxio.fr/2023/talks/587"
     },
     {
       "id": "vendredi-614",
@@ -1748,8 +1797,8 @@
       "room": "salle-2",
       "roomLabel": "Salle 2 (E1+E2)",
       "time": "",
-      "format": "",
-      "duration": null,
+      "format": "Conférence - 45min",
+      "duration": 45,
       "speakers": [
         {
           "photo": "https://avatars.githubusercontent.com/u/13575921?v=4",
@@ -1785,7 +1834,8 @@
         }
       ],
       "status": "complete",
-      "noteFile": "vendredi/salle-2/614.md"
+      "noteFile": "vendredi/salle-2/614.md",
+      "durationSource": "https://bdxio.fr/2023/talks/614"
     },
     {
       "id": "vendredi-612",
@@ -1798,8 +1848,8 @@
       "room": "amphi-c",
       "roomLabel": "Amphi C",
       "time": "13:30",
-      "format": "Quickie",
-      "duration": null,
+      "format": "Quickie - 15min",
+      "duration": 15,
       "speakers": [
         {
           "photo": "https://media.licdn.com/dms/image/v2/C4E03AQHz_5hxRuRArg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1655976419519?e=1796256000&v=beta&t=oJ--WEqqHq0KcVz8_hD8d0SR5VqTLVvz0cPZ3x2gv6w",
@@ -1812,8 +1862,9 @@
           ]
         }
       ],
-      "status": "partial",
-      "noteFile": "vendredi/amphi-c/612.md"
+      "status": "complete",
+      "noteFile": "vendredi/amphi-c/612.md",
+      "durationSource": "https://bdxio.fr/2023/talks/612"
     },
     {
       "officialId": "opening",
