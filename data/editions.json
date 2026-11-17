@@ -2,6 +2,21 @@
   "defaultYear": 2026,
   "editions": [
     {
+      "year": 2023,
+      "catalog": "data/catalog-2023.json",
+      "content": "content/2023",
+      "datesLabel": "10 NOVEMBRE",
+      "location": "PALAIS DES CONGRÈS DE BORDEAUX LAC",
+      "days": [
+        {
+          "id": "vendredi",
+          "label": "Vendredi",
+          "short": "10 nov.",
+          "date": "10 novembre"
+        }
+      ]
+    },
+    {
       "year": 2026,
       "catalog": "data/catalog.json",
       "content": "content",
